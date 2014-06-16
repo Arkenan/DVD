@@ -1,4 +1,4 @@
 DVD
 ===
 
-Reloj.asm : retardo.
+<b>Reloj.asm</b>: retardo.
