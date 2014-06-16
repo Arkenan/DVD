@@ -2,8 +2,7 @@
 
 .org 2048
 	call retraso
-halt
-
+	halt
 .org 3000
 
 ciclos:	115384616
