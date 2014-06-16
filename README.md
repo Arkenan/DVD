@@ -1,2 +1,4 @@
 DVD
 ===
+
+Reloj.asm : retardo.
