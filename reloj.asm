@@ -2,7 +2,8 @@
 
 .org 2048
 	call retraso
-halt
+	halt
+
 
 .org 3000
 
@@ -14,4 +15,5 @@ retraso:ld [ciclos], %r13	!Inicializa el contador.
 	be finRet 		!Revisa el flag z para terminar.
 	ba retraso+4		!Itera, ignorando la inicializacon.
 finRet:	jmpl %r15+4, %r0
+
 .end
